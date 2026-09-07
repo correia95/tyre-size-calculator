@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#c2410c" />
+
+    <title>Tyre Size Calculator — compare tyre sizes &amp; speedo error</title>
+    <meta
+      name="description"
+      content="Compare two tyre sizes and see the change in overall diameter, rolling circumference, revs per km, speedometer reading and odometer. Check whether a plus-size or replacement fitment stays within the 3% rule. Runs in your browser."
+    />
+    <link rel="canonical" href="https://tyre-size-calculator.correia95.workers.dev/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tyre Size Calculator" />
+    <meta property="og:description" content="Compare two tyre sizes: diameter change, speedo error, odometer error and the 3% fitment rule." />
+    <meta property="og:url" content="https://tyre-size-calculator.correia95.workers.dev/" />
+    <meta property="og:image" content="https://tyre-size-calculator.correia95.workers.dev/og.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tyre Size Calculator" />
+    <meta name="twitter:description" content="Compare two tyre sizes: diameter change, speedo error and the 3% fitment rule." />
+    <meta name="twitter:image" content="https://tyre-size-calculator.correia95.workers.dev/og.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Tyre Size Calculator",
+        "url": "https://tyre-size-calculator.correia95.workers.dev/",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "Compare two tyre sizes and calculate the change in overall diameter, rolling circumference, speedometer reading and odometer, entirely in the browser."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What does a tyre size like 225/45 R17 mean?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "225 is the section width in millimetres. 45 is the aspect ratio: the sidewall height is 45 percent of the width, about 101 mm. R17 is a 17 inch wheel. Overall diameter is the wheel diameter plus twice the sidewall, about 634 mm."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much bigger or smaller can a replacement tyre be?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The common rule of thumb is to keep the new overall diameter within about 3 percent of the original. Inside that band the speedometer error stays within a few km/h and there is usually enough clearance in the wheel arch."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do bigger tyres affect the speedometer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A tyre with a larger rolling diameter turns fewer revolutions per kilometre, so the speedometer reads low: you are travelling faster than it shows, and the odometer counts fewer kilometres than you have actually driven. A smaller diameter does the opposite."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is plus-sizing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Plus-sizing means fitting a larger wheel and a lower-profile tyre so the overall diameter stays roughly the same, for example 205/55 R16 to 225/45 R17. You get sharper steering response at the cost of a firmer ride and more risk of kerbing a rim."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <noscript>
+      <p style="text-align: center; padding: 20px">
+        This tyre size calculator needs JavaScript. It compares two tyre sizes and shows the change in
+        overall diameter, rolling circumference, speedometer reading and odometer, and whether the
+        fitment stays within the 3% rule.
+      </p>
+    </noscript>
+  </body>
+</html>

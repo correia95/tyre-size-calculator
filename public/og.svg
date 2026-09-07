@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0f1115"/>
+  <circle cx="950" cy="315" r="210" fill="none" stroke="#282d36" stroke-width="60"/>
+  <circle cx="950" cy="315" r="210" fill="none" stroke="#fb923c" stroke-width="60" stroke-dasharray="70 40"/>
+  <circle cx="950" cy="315" r="90" fill="none" stroke="#9aa2b1" stroke-width="34"/>
+  <text x="90" y="150" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="82" font-weight="800" fill="#e9ecf2" letter-spacing="-1">Tyre Size Calculator</text>
+  <text x="90" y="205" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="27" fill="#9aa2b1">Compare two sizes · diameter change · speedo &amp; odometer error</text>
+  <text x="90" y="345" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="46" font-weight="700" fill="#9aa2b1">225/45 R17</text>
+  <text x="90" y="410" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="46" font-weight="700" fill="#e9ecf2">245/40 R18</text>
+  <text x="90" y="500" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="72" font-weight="800" fill="#fb923c">+2.98%</text>
+  <text x="90" y="560" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="22" fill="#9aa2b1">Stay within ~3% to keep the speedo honest · runs in your browser · no sign-up</text>
+</svg>
